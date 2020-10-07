@@ -11,7 +11,6 @@ describe('/login', () => {
   it('password reset link is correct', () => {
     cy.contains('Forgotten it?')
       .should('have.attr', 'href', '/reset-password')
-    
   })
 
   it('validates email address input', () => {
@@ -26,17 +25,8 @@ describe('/login', () => {
       .should('have.value', '123456')
   })
 
-  it('successfull login', () => {
-    cy.get('#identifier')
-      .type('christine.zierold@gmail.com')
-    cy.get('#password')
-      .type('Test12345')
-    cy.get("form").submit();
-    //Workaround for the long wait for the dashboard page
-    cy.location('pathname', {timeout: 10000})
-      .should('include', 'organisations');
-    //Check if dashboard is loaded --> login successfull
-    cy.get('div.dashboard-container').should('be.visible')
+  it.only('successfull login', () => {
+    cy.login()
   })
 })
 
