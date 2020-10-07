@@ -1,0 +1,26 @@
+{
+  "name": "shorthandcypresstestsuite",
+  "version": "0.0.1",
+  "description": "A cypress test suite for the editor from shorthand",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^5.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisZie/ShorthandCypressTestSuite.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Christine Zierold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisZie/ShorthandCypressTestSuite/issues"
+  },
+  "homepage": "https://github.com/ChrisZie/ShorthandCypressTestSuite#readme"
+}
