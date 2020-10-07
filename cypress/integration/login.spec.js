@@ -32,10 +32,10 @@ describe('/login', () => {
     cy.get('#password')
       .type('Test12345')
     cy.get("form").submit();
-    //workaround for the long wait for the dashboard page
+    //Workaround for the long wait for the dashboard page
     cy.location('pathname', {timeout: 10000})
       .should('include', 'organisations');
-    //check if dashboard is loaded --> login successfull
+    //Check if dashboard is loaded --> login successfull
     cy.get('div.dashboard-container').should('be.visible')
   })
 })
