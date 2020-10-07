@@ -25,7 +25,7 @@ describe('/login', () => {
       .should('have.value', '123456')
   })
 
-  it.only('successfull login', () => {
+  it('successfull login', () => {
     cy.login()
   })
 })
