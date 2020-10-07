@@ -5,7 +5,7 @@ Cypress.Commands.add('login', () =>{
     .type('christine.zierold@gmail.com')
   cy.get('#password')
     .type('Test12345')
-  cy.get("form").submit();
+  cy.get("form").submit()
   //Check the right path to the dashboard
   cy.location('pathname', {timeout: 10000})
     .should('include', 'organisations');
