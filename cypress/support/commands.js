@@ -6,13 +6,13 @@ Cypress.Commands.add('login', () =>{
     .type('christine.zierold@gmail.com')
   cy.get('#password')
     .type('Test12345')
-  //submit the form
+  //Submit the form
   cy.get("form").submit()
   //Check the right path to the dashboard
   cy.location('pathname', {timeout: 10000})
     .should('include', 'organisations');
   //Add longer timeout because of current loading problems
-  //Check if dashboard is loaded --> login successfull
+  //Check if dashboard is loaded --> Login successfull
   cy.get('div.dashboard-container', {timeout: 20000})
     .should('be.visible', {timeout: 20000})
 })
@@ -23,7 +23,7 @@ Cypress.Commands.add('createBlankStory', () =>{
   cy.get('.card-new-story button.card-link')
     .should('be.visible')
     .click()
-  //Click/Select blank template in appearing pop-up window
+  //Click/Select 'blank template' in appearing pop-up window
   //ToDo: create a better selector for this button e.g. Data-QA attribute
   cy.get('div.card-template-blank-container button.card-link')
     .should('be.visible')
