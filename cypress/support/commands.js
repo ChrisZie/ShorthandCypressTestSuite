@@ -3,7 +3,7 @@ Cypress.Commands.add('login', () =>{
   cy.visit('/signin')
   //Fill in email address and password
   cy.get('#identifier')
-    .type('christine.zierold@gmail.com')
+    .type('christine.zierold+CypressTest@gmail.com')
   cy.get('#password')
     .type('Test12345')
   //Submit the form
