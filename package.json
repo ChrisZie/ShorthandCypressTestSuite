@@ -1,7 +1,7 @@
 {
   "name": "shorthandcypresstestsuite",
-  "version": "0.0.1",
-  "description": "A cypress test suite for the editor from shorthand",
+  "version": "1.0.0",
+  "description": "This is a Cypress test suite to test the login and creation of a blank story in the Shorthand editor",
   "main": "index.js",
   "dependencies": {
     "cypress": "^5.3.0"
