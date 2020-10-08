@@ -8,24 +8,26 @@ describe('/login', () => {
     cy.contains('h2', 'Sign in:')
   })
 
-  it('password reset link is correct', () => {
+  it('Password reset link is correct', () => {
     cy.contains('Forgotten it?')
       .should('have.attr', 'href', '/reset-password')
   })
 
-  it('validates email address input', () => {
+  it('Validate email address input', () => {
+    var randomEmail = cy.faker.internet.email()
     cy.get('#identifier')
-      .type('TEST@test.com')
-      .should('have.value', 'TEST@test.com')
+      .type(randomEmail)
+      .should('have.value', randomEmail)
   })
 
-  it('validates password input', () => {
+  it('Validate password input', () => {
+    var randomPassword = cy.faker.internet.password()
     cy.get('#password')
-      .type('123456')
-      .should('have.value', '123456')
+      .type(randomPassword)
+      .should('have.value', randomPassword)
   })
 
-  it('successfull login', () => {
+  it('Successfull login', () => {
     cy.login()
   })
 })
