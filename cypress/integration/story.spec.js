@@ -11,12 +11,15 @@ describe('/story', () => {
   })
 
   it('Create a new blank story', () => {
+    var randomWords = cy.faker.lorem.words()
     cy.createBlankStory()
     //Enter a new story title
     cy.get("[data-testid=header--editor-container-top]  [role='textbox']")
       .clear()
       //Create a random Title with prefix
-      .type('Cypress Blank Test - ' + cy.faker.lorem.words())
+      .type('Cypress Blank Test - ' + randomWords)
+    //Check changed title
+    cy.contains('Cypress Blank Test - ' + randomWords)
   })
 
   it('Create a new text over media section in a new blank story', () => {
