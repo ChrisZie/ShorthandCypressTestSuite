@@ -15,15 +15,16 @@ The following are the performed tests:
     - Create a new blank story
     - Create a new "text over media" section in a new blank story
 
-Open ToDo's
+Open test cases
 - Login
   - Test error messages (e.g. empty password field) in the Sign In form
   - Adapt assertions for multi-language use
 - Story
   - Implement a "Dynamic User" Strategie
     - Database setup or reset after each test to ensure a clean test state
-  - Add more tests for all section
-
+  - Add more tests for creation all types of sections
+  - Implement Image upload
+  
 # How to start the test
 
 1. Clone this repository 
