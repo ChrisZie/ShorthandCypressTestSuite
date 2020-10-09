@@ -27,7 +27,7 @@ describe('/login', () => {
       .should('have.value', randomPassword)
   })
 
-  it('Successfull login', () => {
+  it('Successful login', () => {
     cy.login()
   })
 })
