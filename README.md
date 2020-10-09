@@ -1,6 +1,6 @@
 # Shorthand Cypress TestSuite
 This is my first test suite with Cypress.io. It's a simple test setup to try out Cypress.io.
-This test suite checks the login and creation of a blank story in the Shorthand editor (https://shorthand.com/)
+This test suite checks the login and creation of a blank story in the Shorthand editor (https://shorthand.com/).
 
 # Testsuite
 The following are the performed tests:
@@ -20,6 +20,7 @@ Open test cases
 - Login
   - Test error messages (e.g. empty password field) in the Sign In form
   - Adapt assertions for multi-language use
+
 - Story
   - Implement a "Dynamic User" Strategie
     - Database setup or reset after each test to ensure a clean test state
