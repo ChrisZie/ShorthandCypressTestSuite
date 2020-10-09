@@ -1,6 +1,28 @@
 # ShorthandCypressTestSuite
 This is a Cypress test suite to test the login and creation of a blank story in the Shorthand editor
 
+# Testsuite
+The following are the performed tests:
+- Login
+  - Check Sign In header is visible
+  - Password reset link is correct
+  - Validate email address input
+  - Validate password input
+  - Successfull login with a registered user
+  
+ - Story
+    - Check if the "create a new story" button is visible
+    - Create a new blank story
+    - Create a new "text over media" section in a new blank story
+
+Open ToDo's
+- Login
+  - Test error messages (e.g. empty password field) in the Sign In form
+  - Adapt assertions for multi-language use
+- Story
+  - Implement a "Dynamic User" Strategie
+    - Database setup or reset after each test to ensure a clean test state
+  - Add more tests for all section
 
 # How to start the test
 
