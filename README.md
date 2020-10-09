@@ -9,23 +9,23 @@ The following are the performed tests:
   - Password reset link is correct
   - Validate email address input
   - Validate password input
-  - Successfull login with a registered user
+  - Successful login with a registered user
   
  - Story
     - Check if the "create a new story" button is visible
     - Create a new blank story
     - Create a new "text over media" section in a new blank story
 
-Open test cases
+Open test cases:
 - Login
   - Test error messages (e.g. empty password field) in the Sign In form
   - Adapt assertions for multi-language use
 
 - Story
-  - Implement a "Dynamic User" Strategie
+  - Implement a "Dynamic User" strategy
     - Database setup or reset after each test to ensure a clean test state
-  - Add more tests for creation all types of sections
-  - Implement Image upload
+  - Add more tests for the creation of all types of sections
+  - Implement image upload
   
 # How to start the test
 
