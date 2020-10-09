@@ -1,5 +1,6 @@
-# ShorthandCypressTestSuite
-This is a Cypress test suite to test the login and creation of a blank story in the Shorthand editor
+# Shorthand Cypress TestSuite
+This is my first test suite with Cypress.io. It's a simple test setup to try out Cypress.io.
+This test suite checks the login and creation of a blank story in the Shorthand editor (https://shorthand.com/)
 
 # Testsuite
 The following are the performed tests:
