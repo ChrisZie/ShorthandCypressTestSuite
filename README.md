@@ -10,8 +10,8 @@ This is a Cypress test suite to test the login and creation of a blank story in 
 ![npm test](NpmTest.jpg)
 4. Cypress is opening  
 ![Cypress](TestRunnerOpen.jpg)
-5. Select one of the tests and duple click on it to open the tets in the browser
-![Browser opens](TestStarts.jpg)
+5. Select one of the tests and double-click on it
 6. The test will automatily start and execute the defined assertions and steps
+![Browser opens](TestStarts.jpg)
 7. At the end you can see the executed tests
 ![Test is successful](TestSuccessful.jpg)
