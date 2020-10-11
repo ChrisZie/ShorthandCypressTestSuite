@@ -18,6 +18,7 @@ The following are the performed tests:
 
 Open test cases:
 - Login
+  - Pass user credentials via environment variables
   - Test error messages (e.g. empty password field) in the Sign In form
   - Adapt assertions for multi-language use
 
