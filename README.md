@@ -45,8 +45,4 @@ Open test cases:
 
 # Example 'Create a new "text over media" section in a new blank story' test case
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="./assets/TestSuccessful.jpg">
-    <source src="./assets/ShorthandEditor.mp4" type="video/mp4">
-  </video>
-</figure>
+![Alt Text](https://j.gifs.com/r83Ljw.gif)
