@@ -34,6 +34,7 @@ Open test cases:
 
 1. Clone this repository 
 2. Execute 'npm install' in your local folder to install all dependencies (including cypress.io)
+3. Change the user credentials in cypress.json or add cypress.env.json file (provided from me)
 3. Execute 'npm test' to start the cypress test runner
 ![npm test](./assets/NpmTest.jpg)
 4. Cypress is opening  
