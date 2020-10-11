@@ -41,3 +41,12 @@ Open test cases:
 ![Browser opens](./assets/TestStarts.jpg)
 7. At the end you can see the results of the executed tests
 ![Test is successful](./assets/TestSuccessful.jpg)
+
+
+# Example 'Create a new "text over media" section in a new blank story' test case
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="./assets/TestSuccessful.jpg">
+    <source src="./assets/ShorthandEditor.mp4" type="video/mp4">
+  </video>
+</figure>
