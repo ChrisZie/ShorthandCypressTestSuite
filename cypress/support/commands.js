@@ -3,9 +3,9 @@ Cypress.Commands.add('login', () =>{
   cy.visit('/signin')
   //Fill in email address and password
   cy.get('#identifier')
-    .type('christine.zierold+CypressTest@gmail.com')
+    .type(Cypress.env('userEmail'))
   cy.get('#password')
-    .type('Test12345')
+    .type(Cypress.env('password'))
   //Submit the form
   cy.get("form").submit()
   //Check the right path to the dashboard

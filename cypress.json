@@ -1,3 +1,7 @@
 {
-  "baseUrl": "https://shorthand.com"
+  "baseUrl": "https://shorthand.com",
+  "env" : {
+    "userEmail": "test@test.com",
+    "password": "Test123456"
+  }
 }
