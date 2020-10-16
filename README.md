@@ -30,7 +30,7 @@ Open test cases:
   - Implement image upload
   
 Open ToDo's:
--Refactor code to use PageObjects
+- Refactor code to use PageObjects
   
 # How to start the test
 
