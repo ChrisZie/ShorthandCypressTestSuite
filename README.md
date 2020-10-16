@@ -29,6 +29,9 @@ Open test cases:
   - Add more tests for the creation of all types of sections
   - Implement image upload
   
+Open ToDo's:
+-Refactor code to use PageObjects
+  
 # How to start the test
 
 1. Clone this repository 
