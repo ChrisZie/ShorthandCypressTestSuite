@@ -1,3 +1,4 @@
+[![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
 # Shorthand Cypress TestSuite
 This is my first test suite with Cypress.io. It's a simple test setup to try out Cypress.io.
 This test suite checks the login and creation of a blank story in the Shorthand editor (https://shorthand.com/).
